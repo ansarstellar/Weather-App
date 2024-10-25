@@ -2,7 +2,7 @@ document.getElementById('get-weather-btn').addEventListener('click', getWeather)
 
 async function getWeather() {
   const city = document.getElementById('city-input').value.trim();
-  const apiKey = '20351ef0deec04fa63152d49fe8d32d1';
+  const apiKey = '814a7fa38b3992cc3b539ac1f9097366';
   const weatherDisplay = document.getElementById('weather-display');
   const errorMessage = document.getElementById('error-message');
   
