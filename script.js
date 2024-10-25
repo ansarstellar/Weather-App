@@ -1,9 +1,8 @@
-// script.js
 document.getElementById('get-weather-btn').addEventListener('click', getWeather);
 
 async function getWeather() {
   const city = document.getElementById('city-input').value.trim();
-  const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+  const apiKey = '20351ef0deec04fa63152d49fe8d32d1';
   const weatherDisplay = document.getElementById('weather-display');
   const errorMessage = document.getElementById('error-message');
   
